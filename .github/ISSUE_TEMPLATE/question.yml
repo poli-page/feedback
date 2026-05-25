@@ -1,0 +1,30 @@
+name: Question
+description: Something unclear in the docs or product? Ask here.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Quick questions are usually better as Discussions (Q&A category). Use this template if you think it could be a doc gap or you want it tracked alongside bugs.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to do? Which part of the product are you working with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Helps us spot doc gaps.

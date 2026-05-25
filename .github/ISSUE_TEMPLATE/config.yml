@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask in Discussions (Q&A)
+    url: https://github.com/poli-page/feedback/discussions/categories/q-a
+    about: For general questions, share-your-work, or quick troubleshooting.
+  - name: Read the docs
+    url: https://docs.poli.page
+    about: Template syntax, poli-* classes, helpers, CLI, SDK.
+  - name: Email us
+    url: mailto:contact@poli.page
+    about: For private feedback you'd rather not share publicly (or if you don't have a GitHub account).

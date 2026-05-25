@@ -1,0 +1,79 @@
+name: Bug report
+description: Something broke in the editor. Help us reproduce + fix it.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. The more detail you give, the faster we can fix it.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Quick one-liner of what went wrong.
+      placeholder: "Cmd+S doesn't save when a template has unsaved changes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro_steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal sequence we can follow on our side.
+      placeholder: |
+        1. Open the editor
+        2. Open a template
+        3. Edit the HTML
+        4. Press Cmd+S
+        5. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+
+  - type: input
+    id: editor_version
+    attributes:
+      label: Editor version
+      description: Help > About in the editor (auto-filled from the editor if you used the in-app "Report a bug" command).
+      placeholder: "0.9.8"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / video
+      description: Drag-and-drop files here. Optional but very helpful.
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Console errors, related issues, anything else.
