@@ -33,14 +33,21 @@ This repo is **not** the place for issues that belong to one of the public packa
 - [poli-page/sdk-go](https://github.com/poli-page/sdk-go)
 - [poli-page/sdk-ruby](https://github.com/poli-page/sdk-ruby)
 - [poli-page/sdk-rust](https://github.com/poli-page/sdk-rust)
+- [poli-page/sdk-java](https://github.com/poli-page/sdk-java)
+- [poli-page/sdk-csharp](https://github.com/poli-page/sdk-csharp)
 
 **Framework integrations** (each consumes the SDK of its host language)
-- [poli-page/symfony-bundle](https://github.com/poli-page/symfony-bundle) - Symfony (uses `sdk-php`)
+- [poli-page/symfony](https://github.com/poli-page/symfony) - Symfony (uses `sdk-php`)
 - [poli-page/laravel](https://github.com/poli-page/laravel) - Laravel (uses `sdk-php`)
 - [poli-page/django](https://github.com/poli-page/django) - Django (uses `sdk-python`)
 - [poli-page/fastapi](https://github.com/poli-page/fastapi) - FastAPI (uses `sdk-python`)
 - [poli-page/nestjs](https://github.com/poli-page/nestjs) - NestJS (uses `sdk-node`)
 - [poli-page/nextjs](https://github.com/poli-page/nextjs) - Next.js (uses `sdk-node`)
+- [poli-page/rubyonrails](https://github.com/poli-page/rubyonrails) - Ruby on Rails (uses `sdk-ruby`)
+- [poli-page/gin](https://github.com/poli-page/gin) - Gin (uses `sdk-go`)
+- [poli-page/rocketrs](https://github.com/poli-page/rocketrs) - Rocket (uses `sdk-rust`)
+- [poli-page/spring-boot](https://github.com/poli-page/spring-boot) - Spring Boot (uses `sdk-java`)
+- [poli-page/asp](https://github.com/poli-page/asp) - ASP.NET Core (uses `sdk-csharp`)
 
 ## Support channels
 
